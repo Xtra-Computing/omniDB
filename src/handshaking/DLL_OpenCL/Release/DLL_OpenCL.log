@@ -1,0 +1,61 @@
+﻿Build started 8/18/2013 4:03:23 PM.
+     1>Project "C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\DLL_OpenCL\DLL_OpenCL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\DLL_OpenCL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\AMD APP\\include" /I"C:\Users\pdcc\Documents\AMD APP\\samples\opencl\SDKUtil\include" /I"C:\Users\pdcc\Documents\AMD APP\\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Handshake.cpp
+         Handshake.cpp
+     1>Handshake.cpp(1808): warning C4002: too many actual parameters for macro 'CL_MALLOC'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\Release\DLL_OpenCL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\AMD APP\\lib\x86" /LIBPATH:"C:\Users\pdcc\Documents\AMD APP\\lib\x86" /LIBPATH:"C:\Users\pdcc\Documents\AMD APP\\TempSDKUtil\lib\debug\x86" /LIBPATH:"C:\Program Files (x86)\AMD APP\\lib\x86" /LIBPATH:"C:\Users\pdcc\Documents\AMD APP\\lib\x86" /LIBPATH:"C:\Users\pdcc\Documents\AMD APP\\TempSDKUtil\lib\debug\x86" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DLL_OpenCL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\Release\DLL_OpenCL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\Release\DLL_OpenCL.lib" /MACHINE:X86 Release\AggAfterGroupBy.obj
+         Release\BinaryJoin.obj
+         Release\common.obj
+         Release\CSSTree.obj
+         Release\generator.obj
+         Release\GroupBy.obj
+         Release\Handshake.obj
+         Release\Helper.obj
+         Release\IndexJoin.obj
+         Release\KernelScheduler.obj
+         Release\mainProgram.obj
+         Release\MidNumber.obj
+         Release\PrimitiveCommon.obj
+         Release\Projection.obj
+         Release\scheduler.obj
+         Release\SDKCommmon.obj
+         Release\Selection.obj
+         Release\SharedFunction.obj
+         Release\Singular.obj
+         Release\Sort.obj
+         Release\spinlock.obj
+         Release\testAggAfterGB.obj
+         Release\testFilter.obj
+         Release\testGroupBy.obj
+         Release\testHJ.obj
+         Release\testINLJ.obj
+         Release\testMap.obj
+         Release\testNinlj.obj
+         Release\testProjection.obj
+         Release\testReduce.obj
+         Release\testRIDList.obj
+         Release\testScan.obj
+         Release\testScatter.obj
+         Release\testSMJ.obj
+         Release\testSort.obj
+         Release\testSplit.obj
+         Release\testValue.obj
+         Release\Validate.obj
+            Creating library C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\Release\DLL_OpenCL.lib and object C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\Release\DLL_OpenCL.exp
+         Generating code
+         Finished generating code
+         DLL_OpenCL.vcxproj -> C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\Release\DLL_OpenCL.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\Release\DLL_OpenCL.exe;#1" /manifest Release\DLL_OpenCL.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\DLL_OpenCL.unsuccessfulbuild".
+         Touching "Release\DLL_OpenCL.lastbuildstate".
+     1>Done Building Project "C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\KernelEngine_handshaking\DLL_OpenCL\DLL_OpenCL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.93

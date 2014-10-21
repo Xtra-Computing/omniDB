@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ADF7A9CC-3694-43AB-9D43-8405AB84A27D}</ProjectGuid>
+    <RootNamespace>CoProcessor</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>CoProcessor</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\TonyLib;..\MyLib;"$(AMDAPPSDKROOT)\include";"$(AMDAPPSDKSAMPLESROOT)\samples\opencl\SDKUtil\include";"$(AMDAPPSDKSAMPLESROOT)\include";</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>DLL_OpenCL.lib;OpenCL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\TonyLib;..\MyLib;"$(AMDAPPSDKROOT)\lib\x86";"$(AMDAPPSDKSAMPLESROOT)\lib\x86";"$(AMDAPPSDKSAMPLESROOT)\TempSDKUtil\lib\debug\x86";"$(AMDAPPSDKROOT)\lib\x86";"$(AMDAPPSDKSAMPLESROOT)\lib\x86";"$(AMDAPPSDKSAMPLESROOT)\TempSDKUtil\lib\debug\x86"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\TonyLib;..\MyLib;"$(AMDAPPSDKROOT)\include";"$(AMDAPPSDKSAMPLESROOT)\samples\opencl\SDKUtil\include";"$(AMDAPPSDKSAMPLESROOT)\include";</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>DLL_OpenCL.lib;OpenCL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\TonyLib;..\MyLib;"$(AMDAPPSDKROOT)\lib\x86";"$(AMDAPPSDKSAMPLESROOT)\lib\x86";"$(AMDAPPSDKSAMPLESROOT)\TempSDKUtil\lib\debug\x86";"$(AMDAPPSDKROOT)\lib\x86";"$(AMDAPPSDKSAMPLESROOT)\lib\x86";"$(AMDAPPSDKSAMPLESROOT)\TempSDKUtil\lib\debug\x86"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryThreadOp.h" />
+    <ClInclude Include="CoProcessor.h" />
+    <ClInclude Include="CoProcessorTest.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="db.h" />
+    <ClInclude Include="ExecStatus.h" />
+    <ClInclude Include="GroupByThreadOp.h" />
+    <ClInclude Include="hash.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="MyThreadPoolCop.h" />
+    <ClInclude Include="PredicateTree.h" />
+    <ClInclude Include="QueryPlanNode.h" />
+    <ClInclude Include="QueryPlanTree.h" />
+    <ClInclude Include="SingularThreadOp.h" />
+    <ClInclude Include="SortThreadOp.h" />
+    <ClInclude Include="ThreadOp.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="UInterface.h" />
+    <ClInclude Include="..\MyLib\AccessMethods.h" />
+    <ClInclude Include="..\MyLib\CC_CSSTree.h" />
+    <ClInclude Include="..\MyLib\common.h" />
+    <ClInclude Include="..\MyLib\hashTable.h" />
+    <ClInclude Include="..\MyLib\Joins.h" />
+    <ClInclude Include="..\MyLib\LinkedList.h" />
+    <ClInclude Include="..\MyLib\mapImpl.h" />
+    <ClInclude Include="..\MyLib\MyThreadPool.h" />
+    <ClInclude Include="..\MyLib\Primitive.h" />
+    <ClInclude Include="..\MyLib\QP_Utility.h" />
+    <ClInclude Include="..\MyLib\stdafx.h" />
+    <ClInclude Include="..\MyLib\StringLib.h" />
+    <ClInclude Include="..\MyLib\Test.h" />
+    <ClInclude Include="..\MianLib\cuCSSTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryThreadOp.cpp" />
+    <ClCompile Include="CoProcessorApp.cpp" />
+    <ClCompile Include="CoProcessorTest.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="db.cpp" />
+    <ClCompile Include="DynamicQueryProcessor.cpp" />
+    <ClCompile Include="GroupByThreadOp.cpp" />
+    <ClCompile Include="PredicateTree.cpp" />
+    <ClCompile Include="QP_Utility.cpp" />
+    <ClCompile Include="QueryPlanNode.cpp" />
+    <ClCompile Include="QueryPlanTree.cpp" />
+    <ClCompile Include="SDKCommmon.cpp" />
+    <ClCompile Include="SingularThreadOp.cpp" />
+    <ClCompile Include="SortThreadOp.cpp" />
+    <ClCompile Include="ThreadOp.cpp" />
+    <ClCompile Include="UInterface.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

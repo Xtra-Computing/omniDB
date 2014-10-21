@@ -1,0 +1,256 @@
+﻿Build started 11/17/2013 10:46:58 AM.
+     1>Project "C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\CoProcessor\CoProcessor.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\CoProcessor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\TonyLib /I..\MyLib /I"C:\Program Files (x86)\AMD APP\\include" /I"C:\Users\f11301bs\Documents\AMD APP\\samples\opencl\SDKUtil\include" /I"C:\Users\f11301bs\Documents\AMD APP\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BinaryThreadOp.cpp CoProcessorApp.cpp CoProcessorTest.cpp Database.cpp db.cpp DynamicQueryProcessor.cpp GroupByThreadOp.cpp PredicateTree.cpp QP_Utility.cpp QueryPlanNode.cpp QueryPlanTree.cpp SDKCommmon.cpp SingularThreadOp.cpp SortThreadOp.cpp ThreadOp.cpp UInterface.cpp
+         UInterface.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52) : see previous definition of 'TEST_MAX'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\hash.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\execstatus.h(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         ThreadOp.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20) : see previous definition of 'TEST_MAX'
+         SortThreadOp.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20) : see previous definition of 'TEST_MAX'
+         SingularThreadOp.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20) : see previous definition of 'TEST_MAX'
+         SDKCommmon.cpp
+         QueryPlanTree.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52) : see previous definition of 'TEST_MAX'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\hash.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\execstatus.h(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         QueryPlanNode.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52) : see previous definition of 'TEST_MAX'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\hash.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\execstatus.h(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\queryplannode.cpp(56): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\queryplannode.cpp(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\queryplannode.cpp(79): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\queryplannode.cpp(371): warning C4101: 'leftopt' : unreferenced local variable
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\queryplannode.cpp(372): warning C4101: 'rightopt' : unreferenced local variable
+         QP_Utility.cpp
+         PredicateTree.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\predicatetree.cpp(46): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\predicatetree.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\predicatetree.cpp(54): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\predicatetree.cpp(210): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         GroupByThreadOp.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20) : see previous definition of 'TEST_MAX'
+         DynamicQueryProcessor.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20) : see previous definition of 'TEST_MAX'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\mythreadpoolcop.h(9): warning C4005: 'MAX_RUN' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\mythreadpool.h(8) : see previous definition of 'MAX_RUN'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\hash.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\execstatus.h(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         db.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52) : see previous definition of 'TEST_MAX'
+         Database.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\hash.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52) : see previous definition of 'TEST_MAX'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(263): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(272): warning C4101: 'value' : unreferenced local variable
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(271): warning C4101: 'rid' : unreferenced local variable
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(422): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(424): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(435): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(444): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(446): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(463): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(465): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(510): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(512): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(553): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(555): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(563): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(564): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(565): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(586): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(588): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(596): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(597): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(598): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(549): warning C4101: 't2' : unreferenced local variable
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\database.cpp(549): warning C4101: 't1' : unreferenced local variable
+         CoProcessorTest.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20) : see previous definition of 'TEST_MAX'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\hash.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\execstatus.h(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(89): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(93): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(99): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(128): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(132): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(160): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         CoProcessorApp.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20) : see previous definition of 'TEST_MAX'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessorapp.cpp(51): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessorapp.cpp(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessorapp.cpp(46): warning C4101: 'qt' : unreferenced local variable
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessorapp.cpp(45): warning C4101: 'choice' : unreferenced local variable
+         BinaryThreadOp.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\linkedlist.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\mylib\qp_utility.h(20) : see previous definition of 'TEST_MAX'
+         Generating Code...
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\coprocessortest.cpp(327): warning C4715: 'OpToString' : not all control paths return a value
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\kernel\coprocessor\coprocessor\execstatus.h(111): warning C4700: uninitialized local variable 'Rout' used
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CoProcessor.exe.embed.manifest.res" Debug\CoProcessor_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\Debug\CoProcessor.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\TonyLib /LIBPATH:..\MyLib /LIBPATH:"C:\Program Files (x86)\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\TempSDKUtil\lib\debug\x86" /LIBPATH:"C:\Program Files (x86)\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\TempSDKUtil\lib\debug\x86" DLL_OpenCL.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CoProcessor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\Debug\CoProcessor.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\Debug\CoProcessor.lib" /MACHINE:X86 Debug\CoProcessor.exe.embed.manifest.res
+         Debug\BinaryThreadOp.obj
+         Debug\CoProcessorApp.obj
+         Debug\CoProcessorTest.obj
+         Debug\Database.obj
+         Debug\db.obj
+         Debug\DynamicQueryProcessor.obj
+         Debug\GroupByThreadOp.obj
+         Debug\PredicateTree.obj
+         Debug\QP_Utility.obj
+         Debug\QueryPlanNode.obj
+         Debug\QueryPlanTree.obj
+         Debug\SDKCommmon.obj
+         Debug\SingularThreadOp.obj
+         Debug\SortThreadOp.obj
+         Debug\ThreadOp.obj
+         Debug\UInterface.obj
+         DLL_OpenCL.lib(BinaryJoin.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>DLL_OpenCL.lib(BinaryJoin.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(IndexJoin.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(mainProgram.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(common.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(Sort.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(Projection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(SharedFunction.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(Singular.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(Selection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(scheduler.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testSMJ.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testNinlj.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testHJ.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testINLJ.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(CSSTree.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testScatter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(generator.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(Handshake.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(KernelScheduler.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testSort.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testAggAfterGB.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testMap.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testReduce.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testGroupBy.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testScan.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testSplit.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testProjection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testRIDList.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(testValue.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(PrimitiveCommon.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(Helper.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(Validate.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(GroupBy.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+     1>DLL_OpenCL.lib(AggAfterGroupBy.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in BinaryThreadOp.obj
+            Creating library C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\Debug\CoProcessor.lib and object C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\Debug\CoProcessor.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\Debug\CoProcessor.exe : fatal error LNK1319: 35 mismatches detected
+     1>Done Building Project "C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\CoProcessor\CoProcessor\CoProcessor.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.16

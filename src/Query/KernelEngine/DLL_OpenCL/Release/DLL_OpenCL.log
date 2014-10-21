@@ -1,0 +1,76 @@
+﻿Build started 8/18/2013 12:27:56 AM.
+     1>Project "C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\FinalTest\Query\KernelEngine\DLL_OpenCL\DLL_OpenCL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\DLL_OpenCL.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\AMD APP\\include" /I"C:\Users\pdcc\Documents\AMD APP\\samples\opencl\SDKUtil\include" /I"C:\Users\pdcc\Documents\AMD APP\\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mainProgram.cpp
+         mainProgram.cpp
+     1>mainProgram.cpp(91): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>mainProgram.cpp(177): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>mainProgram.cpp(271): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>mainProgram.cpp(272): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>mainProgram.cpp(676): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>mainProgram.cpp(767): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>mainProgram.cpp(880): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>mainProgram.cpp(882): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>mainProgram.cpp(884): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>mainProgram.cpp(886): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>mainProgram.cpp(902): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>mainProgram.cpp(903): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>mainProgram.cpp(909): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>mainProgram.cpp(910): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\FinalTest\Query\KernelEngine\Release\DLL_OpenCL.lib" /NOLOGO /LTCG Release\AggAfterGroupBy.obj
+         Release\BinaryJoin.obj
+         Release\common.obj
+         Release\CSSTree.obj
+         Release\generator.obj
+         Release\GroupBy.obj
+         Release\Handshake.obj
+         Release\Helper.obj
+         Release\IndexJoin.obj
+         Release\KernelScheduler.obj
+         Release\mainProgram.obj
+         Release\MidNumber.obj
+         Release\PrimitiveCommon.obj
+         Release\Projection.obj
+         Release\scheduler.obj
+         Release\SDKCommmon.obj
+         Release\Selection.obj
+         Release\SharedFunction.obj
+         Release\Singular.obj
+         Release\Sort.obj
+         Release\spinlock.obj
+         Release\testAggAfterGB.obj
+         Release\testFilter.obj
+         Release\testGroupBy.obj
+         Release\testHJ.obj
+         Release\testINLJ.obj
+         Release\testMap.obj
+         Release\testNinlj.obj
+         Release\testProjection.obj
+         Release\testReduce.obj
+         Release\testRIDList.obj
+         Release\testScan.obj
+         Release\testScatter.obj
+         Release\testSMJ.obj
+         Release\testSort.obj
+         Release\testSplit.obj
+         Release\testValue.obj
+         Release\Validate.obj
+         DLL_OpenCL.vcxproj -> C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\FinalTest\Query\KernelEngine\Release\DLL_OpenCL.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\DLL_OpenCL.unsuccessfulbuild".
+         Touching "Release\DLL_OpenCL.lastbuildstate".
+     1>Done Building Project "C:\Users\pdcc\Desktop\VLDBDemo13-v4\Experiment\Source\FinalTest\Query\KernelEngine\DLL_OpenCL\DLL_OpenCL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.40

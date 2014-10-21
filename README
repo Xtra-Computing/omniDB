@@ -1,0 +1,27 @@
+<<<<<<< HEAD:README
+
+/*NOTES(tony): This help file is prepared in a rash, please feel free to contact me with any difficulties you faced.*/
+*******bin**********
+To benchmark on your machine,
+	1. go to bin/release run handshake.bat if you are run it first time on new machine.
+	2. go to each *scheduler folder, run test.bat
+To modify-run each level of scheduling, you need to do modify in src folder and then:
+	1. you need to compile the KernelEngine into DLL,Copy the lib into CoProcessores TonyLib.(If you never done so or made modification on kernelEngine project). 
+	3. Compile CoProcessor, copy the exe to bin/release folder described in previous section.
+/*NOTES*/
+	current code rely on AMD's opencl SDK on windows, you might need to recompile it with other vendor's Opencl sdk, i.e intel's or Nvidia's
+*******src code description**************
+Three level of scheduling are put into three folder correspondingly, 
+from each source folder, you will find: 
+	1. CoProcessor folder : which contains the main entry point for certain level scheduling program. 
+	2. KernelEngine folder: code for the engine, compile into DLL.
+/*SETTINGS*/
+Total query numbers are now hard-code set to *30* in order of Q1 to Q6.
+Total number of threads are now hard-code set to *4*.
+I will update them into easy-benchmark version later.
+
+/*NOTES*/
+Do be aware that, if parallism is too high(say, 10 true concrrent threads), GPU memory may not enough to buffering requests,
+which will lead program crash. This bug will be addressed later.
+
+

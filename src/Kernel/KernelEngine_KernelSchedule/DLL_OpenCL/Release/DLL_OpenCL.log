@@ -1,0 +1,140 @@
+﻿Build started 2/26/2014 4:40:29 PM.
+     1>Project "C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\KernelEngine_KernelSchedule\DLL_OpenCL\DLL_OpenCL.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\DLL_OpenCL.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Release\DLL_OpenCL.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\AMD APP\\include" /I"C:\Users\f11301bs\Documents\AMD APP\\samples\opencl\SDKUtil\include" /I"C:\Users\f11301bs\Documents\AMD APP\\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AggAfterGroupBy.cpp BinaryJoin.cpp common.cpp CSSTree.cpp generator.cpp GroupBy.cpp Handshake.cpp Helper.cpp IndexJoin.cpp KernelScheduler.cpp mainProgram.cpp MidNumber.cpp PrimitiveCommon.cpp Projection.cpp scheduler.cpp SDKCommmon.cpp Selection.cpp SharedFunction.cpp Singular.cpp Sort.cpp spinlock.cpp testAggAfterGB.cpp testFilter.cpp testGroupBy.cpp testHJ.cpp testINLJ.cpp testMap.cpp testNinlj.cpp testProjection.cpp testReduce.cpp testRIDList.cpp testScan.cpp testScatter.cpp testSMJ.cpp testSort.cpp testSplit.cpp testValue.cpp Validate.cpp
+         AggAfterGroupBy.cpp
+         BinaryJoin.cpp
+         common.cpp
+         CSSTree.cpp
+         generator.cpp
+         GroupBy.cpp
+         Handshake.cpp
+     1>Handshake.cpp(1807): warning C4002: too many actual parameters for macro 'CL_MALLOC'
+         Helper.cpp
+         IndexJoin.cpp
+         KernelScheduler.cpp
+         mainProgram.cpp
+     1>mainProgram.cpp(91): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>mainProgram.cpp(176): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>mainProgram.cpp(270): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>mainProgram.cpp(271): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>mainProgram.cpp(680): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>mainProgram.cpp(758): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>mainProgram.cpp(871): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>mainProgram.cpp(873): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>mainProgram.cpp(875): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>mainProgram.cpp(877): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>mainProgram.cpp(893): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>mainProgram.cpp(894): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>mainProgram.cpp(900): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>mainProgram.cpp(901): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         MidNumber.cpp
+     1>MidNumber.cpp(7): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         PrimitiveCommon.cpp
+         Projection.cpp
+         scheduler.cpp
+         SDKCommmon.cpp
+         Selection.cpp
+         SharedFunction.cpp
+         Singular.cpp
+     1>Singular.cpp(8): warning C4018: '<' : signed/unsigned mismatch
+         Sort.cpp
+         Compiling...
+         spinlock.cpp
+         testAggAfterGB.cpp
+     1>testAggAfterGB.cpp(86): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         testFilter.cpp
+     1>testFilter.cpp(134): warning C4101: 'Kernel' : unreferenced local variable
+     1>testFilter.cpp(135): warning C4101: 'CPU_GPU' : unreferenced local variable
+     1>testFilter.cpp(136): warning C4101: 'burden' : unreferenced local variable
+     1>testFilter.cpp(132): warning C4101: 'eventList' : unreferenced local variable
+         testGroupBy.cpp
+         testHJ.cpp
+         testINLJ.cpp
+     1>testINLJ.cpp(51): warning C4101: 'd_Rout' : unreferenced local variable
+         testMap.cpp
+         testNinlj.cpp
+         testProjection.cpp
+         testReduce.cpp
+     1>testReduce.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>testReduce.cpp(238): warning C4018: '<' : signed/unsigned mismatch
+     1>testReduce.cpp(326): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>testReduce.cpp(322): warning C4101: 'd_data' : unreferenced local variable
+         testRIDList.cpp
+         testScan.cpp
+         testScatter.cpp
+         testSMJ.cpp
+     1>testSMJ.cpp(213): warning C4101: 'd_Rout' : unreferenced local variable
+     1>testSMJ.cpp(230): warning C4101: 'd_Rout' : unreferenced local variable
+         testSort.cpp
+         testSplit.cpp
+     1>testSplit.cpp(119): warning C4244: 'initializing' : conversion from 'double' to 'size_t', possible loss of data
+         testValue.cpp
+         Validate.cpp
+     1>Validate.cpp(105): warning C4018: '>' : signed/unsigned mismatch
+     1>Validate.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+     1>Validate.cpp(235): warning C4018: '>=' : signed/unsigned mismatch
+     1>Validate.cpp(235): warning C4018: '<=' : signed/unsigned mismatch
+     1>Validate.cpp(254): warning C4018: '>=' : signed/unsigned mismatch
+     1>Validate.cpp(254): warning C4018: '<=' : signed/unsigned mismatch
+     1>Validate.cpp(335): warning C4018: '>' : signed/unsigned mismatch
+     1>Validate.cpp(358): warning C4018: '<' : signed/unsigned mismatch
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\KernelEngine_KernelSchedule\Release\DLL_OpenCL.lib" /NOLOGO /LTCG Release\AggAfterGroupBy.obj
+         Release\BinaryJoin.obj
+         Release\common.obj
+         Release\CSSTree.obj
+         Release\generator.obj
+         Release\GroupBy.obj
+         Release\Handshake.obj
+         Release\Helper.obj
+         Release\IndexJoin.obj
+         Release\KernelScheduler.obj
+         Release\mainProgram.obj
+         Release\MidNumber.obj
+         Release\PrimitiveCommon.obj
+         Release\Projection.obj
+         Release\scheduler.obj
+         Release\SDKCommmon.obj
+         Release\Selection.obj
+         Release\SharedFunction.obj
+         Release\Singular.obj
+         Release\Sort.obj
+         Release\spinlock.obj
+         Release\testAggAfterGB.obj
+         Release\testFilter.obj
+         Release\testGroupBy.obj
+         Release\testHJ.obj
+         Release\testINLJ.obj
+         Release\testMap.obj
+         Release\testNinlj.obj
+         Release\testProjection.obj
+         Release\testReduce.obj
+         Release\testRIDList.obj
+         Release\testScan.obj
+         Release\testScatter.obj
+         Release\testSMJ.obj
+         Release\testSort.obj
+         Release\testSplit.obj
+         Release\testValue.obj
+         Release\Validate.obj
+         DLL_OpenCL.vcxproj -> C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\KernelEngine_KernelSchedule\Release\DLL_OpenCL.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\DLL_OpenCL.unsuccessfulbuild".
+         Touching "Release\DLL_OpenCL.lastbuildstate".
+     1>Done Building Project "C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Kernel\KernelEngine_KernelSchedule\DLL_OpenCL\DLL_OpenCL.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.02

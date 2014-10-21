@@ -1,0 +1,53 @@
+Query_SpeedupGPUOverCPU 1 is 1.508211
+RunInCPU 1 is 118.990193
+RunInGPU 1 is 78.894943
+Query_SpeedupGPUOverCPU 2 is 0.689923
+RunInCPU 2 is 96.535034
+RunInGPU 2 is 139.921484
+Query_SpeedupGPUOverCPU 3 is 0.701177
+RunInCPU 3 is 998.575727
+RunInGPU 3 is 1424.141825
+Query_SpeedupGPUOverCPU 4 is 0.739617
+RunInCPU 4 is 996.482793
+RunInGPU 4 is 1347.296304
+Query_SpeedupGPUOverCPU 5 is 0.627902
+RunInCPU 5 is 3041.867053
+RunInGPU 5 is 4844.490571
+Query_SpeedupGPUOverCPU 6 is 1.864869
+RunInCPU 6 is 485.977128
+RunInGPU 6 is 260.595900
+Query_LothresholdForGPUApp is 1.508211
+Query_LothresholdForCPUApp is 0.701177
+Query_UpGPUBurden is 3134.316198
+Query_LoCPUBurden is 546.508914
+Query_UpCPUBurden is 2020.221390
+sortSpeedUp0 is 0.627902
+sortSpeedUp1 is 0.689923
+sortSpeedUp2 is 0.701177
+sortSpeedUp3 is 0.739617
+sortSpeedUp4 is 1.508211
+sortSpeedUp5 is 1.864869
+----------------------------------
+
+sortCPUBurden0 is 96.535034
+sortCPUBurden1 is 118.990193
+sortCPUBurden2 is 485.977128
+sortCPUBurden3 is 996.482793
+sortCPUBurden4 is 998.575727
+sortCPUBurden5 is 3041.867053
+----------------------------------
+
+sortGPUBurden0 is 78.894943
+sortGPUBurden1 is 139.921484
+sortGPUBurden2 is 260.595900
+sortGPUBurden3 is 1347.296304
+sortGPUBurden4 is 1424.141825
+sortGPUBurden5 is 4844.490571
+Final decision
+
+Query_LothresholdForGPUApp is 1.508211
+Query_LothresholdForCPUApp is 0.701177
+Query_LoGPUBurden is 713.095624
+Query_UpGPUBurden is 3134.316198
+Query_LoCPUBurden is 546.508914
+Query_UpCPUBurden is 2020.221390

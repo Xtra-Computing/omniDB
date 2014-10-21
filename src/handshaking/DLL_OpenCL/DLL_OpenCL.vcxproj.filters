@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\ImplAndTest">
+      <UniqueIdentifier>{2b1f2bfc-dbbe-46ce-a029-acbd3b516491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterfaceFnt">
+      <UniqueIdentifier>{338f2494-75ed-4c9c-b5ce-62bc0c22f111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\testHead">
+      <UniqueIdentifier>{bac18b00-833d-43d4-a76d-d4ccc69204ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ImplAndTest\testJoin">
+      <UniqueIdentifier>{5472e378-259b-4220-8937-d03097488f20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSSTree.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generator.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelScheduler.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveCommon.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKCommmon.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Validate.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testAggAfterGB.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testFilter.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testGroupBy.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testMap.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testProjection.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testReduce.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testRIDList.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testScan.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testScatter.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testSort.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testSplit.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="testValue.cpp">
+      <Filter>Resource Files\ImplAndTest</Filter>
+    </ClCompile>
+    <ClCompile Include="AggAfterGroupBy.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryJoin.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupBy.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexJoin.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+    <ClCompile Include="Projection.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+    <ClCompile Include="Singular.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+    <ClCompile Include="testHJ.cpp">
+      <Filter>Resource Files\ImplAndTest\testJoin</Filter>
+    </ClCompile>
+    <ClCompile Include="testINLJ.cpp">
+      <Filter>Resource Files\ImplAndTest\testJoin</Filter>
+    </ClCompile>
+    <ClCompile Include="testNinlj.cpp">
+      <Filter>Resource Files\ImplAndTest\testJoin</Filter>
+    </ClCompile>
+    <ClCompile Include="testSMJ.cpp">
+      <Filter>Resource Files\ImplAndTest\testJoin</Filter>
+    </ClCompile>
+    <ClCompile Include="Handshake.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MidNumber.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spinlock.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedFunction.cpp">
+      <Filter>Source Files\InterfaceFnt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyThreadPoolCop.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveCommon.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="verctor_types.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCL_DLL.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSSTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelScheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testAggAfterGB.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testFilter.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testGroupBy.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testJoin.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testMap.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testProjection.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testReduce.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testRIDList.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testScan.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testScatter.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testSingular.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testSort.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testSplit.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="testValue.h">
+      <Filter>Header Files\testHead</Filter>
+    </ClInclude>
+    <ClInclude Include="MidNumber.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Handshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="primitive.cl" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+@echo off
+set _Num=10
+:loop
+if %_Num%==0 goto end
+echo %_Num%
+DLL_OpenCL.exe
+set /a _Num-=1
+goto loop
+:end
+echo it works.

@@ -1,0 +1,64 @@
+﻿Build started 8/8/2013 10:00:48 AM.
+     1>Project "C:\Users\f11301bs\Dropbox\TONY\FYP\Working\FinalTest - Copy\Kernel\KernelEngine_KernelSchedule\DLL_OpenCL\DLL_OpenCL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\DLL_OpenCL.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\AMD APP\\include" /I"C:\Users\f11301bs\Documents\AMD APP\\samples\opencl\SDKUtil\include" /I"C:\Users\f11301bs\Documents\AMD APP\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt scheduler.cpp
+         scheduler.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\f11301bs\Dropbox\TONY\FYP\Working\FinalTest - Copy\Kernel\KernelEngine_KernelSchedule\Debug\DLL_OpenCL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\TempSDKUtil\lib\debug\x86" /LIBPATH:"C:\Program Files (x86)\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\TempSDKUtil\lib\debug\x86" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DLL_OpenCL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\f11301bs\Dropbox\TONY\FYP\Working\FinalTest - Copy\Kernel\KernelEngine_KernelSchedule\Debug\DLL_OpenCL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\f11301bs\Dropbox\TONY\FYP\Working\FinalTest - Copy\Kernel\KernelEngine_KernelSchedule\Debug\DLL_OpenCL.lib" /MACHINE:X86 Debug\DLL_OpenCL.exe.embed.manifest.res
+         Debug\AggAfterGroupBy.obj
+         Debug\BinaryJoin.obj
+         Debug\common.obj
+         Debug\CSSTree.obj
+         Debug\generator.obj
+         Debug\GroupBy.obj
+         Debug\Handshake.obj
+         Debug\Helper.obj
+         Debug\IndexJoin.obj
+         Debug\KernelScheduler.obj
+         Debug\mainProgram.obj
+         Debug\MidNumber.obj
+         Debug\PrimitiveCommon.obj
+         Debug\Projection.obj
+         Debug\scheduler.obj
+         Debug\SDKCommmon.obj
+         Debug\Selection.obj
+         Debug\SharedFunction.obj
+         Debug\Singular.obj
+         Debug\Sort.obj
+         Debug\spinlock.obj
+         Debug\testAggAfterGB.obj
+         Debug\testFilter.obj
+         Debug\testGroupBy.obj
+         Debug\testHJ.obj
+         Debug\testINLJ.obj
+         Debug\testMap.obj
+         Debug\testNinlj.obj
+         Debug\testProjection.obj
+         Debug\testReduce.obj
+         Debug\testRIDList.obj
+         Debug\testScan.obj
+         Debug\testScatter.obj
+         Debug\testSMJ.obj
+         Debug\testSort.obj
+         Debug\testSplit.obj
+         Debug\testValue.obj
+         Debug\Validate.obj
+            Creating library C:\Users\f11301bs\Dropbox\TONY\FYP\Working\FinalTest - Copy\Kernel\KernelEngine_KernelSchedule\Debug\DLL_OpenCL.lib and object C:\Users\f11301bs\Dropbox\TONY\FYP\Working\FinalTest - Copy\Kernel\KernelEngine_KernelSchedule\Debug\DLL_OpenCL.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DLL_OpenCL.exe.embed.manifest" /manifest Debug\DLL_OpenCL.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         DLL_OpenCL.vcxproj -> C:\Users\f11301bs\Dropbox\TONY\FYP\Working\FinalTest - Copy\Kernel\KernelEngine_KernelSchedule\Debug\DLL_OpenCL.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\DLL_OpenCL.unsuccessfulbuild".
+         Touching "Debug\DLL_OpenCL.lastbuildstate".
+     1>Done Building Project "C:\Users\f11301bs\Dropbox\TONY\FYP\Working\FinalTest - Copy\Kernel\KernelEngine_KernelSchedule\DLL_OpenCL\DLL_OpenCL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66

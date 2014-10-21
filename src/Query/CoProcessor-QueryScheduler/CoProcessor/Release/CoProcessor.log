@@ -1,0 +1,93 @@
+﻿Build started 11/17/2013 11:28:02 AM.
+     1>Project "C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\CoProcessor\CoProcessor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\CoProcessor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\TonyLib /I..\MyLib /I"C:\Program Files (x86)\AMD APP\\include" /I"C:\Users\f11301bs\Documents\AMD APP\\samples\opencl\SDKUtil\include" /I"C:\Users\f11301bs\Documents\AMD APP\\include" /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DynamicQueryProcessor.cpp
+         DynamicQueryProcessor.cpp
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\coprocessor\db.h(42): warning C4005: 'NUM_ENTRY' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\mylib\LinkedList.h(8) : see previous definition of 'NUM_ENTRY'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\coprocessor\db.h(52): warning C4005: 'TEST_MAX' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\mylib\QP_Utility.h(20) : see previous definition of 'TEST_MAX'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\coprocessor\MyThreadPoolCop.h(9): warning C4005: 'MAX_RUN' : macro redefinition
+                 c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\mylib\MyThreadPool.h(8) : see previous definition of 'MAX_RUN'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\coprocessor\hash.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\coprocessor\ExecStatus.h(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>DynamicQueryProcessor.cpp(120): warning C4102: 'deschedule' : unreferenced label
+     1>DynamicQueryProcessor.cpp(139): warning C4101: 'eM' : unreferenced local variable
+     1>DynamicQueryProcessor.cpp(198): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DynamicQueryProcessor.cpp(221): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>DynamicQueryProcessor.cpp(222): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\CoProcessor.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\TonyLib /LIBPATH:..\MyLib /LIBPATH:"C:\Program Files (x86)\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\TempSDKUtil\lib\debug\x86" /LIBPATH:"C:\Program Files (x86)\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\lib\x86" /LIBPATH:"C:\Users\f11301bs\Documents\AMD APP\\TempSDKUtil\lib\debug\x86" DLL_OpenCL.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\CoProcessor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\CoProcessor.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\CoProcessor.lib" /MACHINE:X86 Release\BinaryThreadOp.obj
+         Release\CoProcessorApp.obj
+         Release\CoProcessorTest.obj
+         Release\Database.obj
+         Release\db.obj
+         Release\DynamicQueryProcessor.obj
+         Release\GroupByThreadOp.obj
+         Release\HandShaking.obj
+         Release\PredicateTree.obj
+         Release\QP_Utility.obj
+         Release\QueryPlanNode.obj
+         Release\QueryPlanTree.obj
+         Release\SDKCommmon.obj
+         Release\SingularThreadOp.obj
+         Release\SortThreadOp.obj
+         Release\ThreadOp.obj
+         Release\UInterface.obj
+            Creating library C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\CoProcessor.lib and object C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\CoProcessor.exp
+         Generating code
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\coprocessor\coprocessortest.cpp(327): warning C4715: 'OpToString' : not all control paths return a value
+     1>c:\users\f11301bs\dropbox\git_hub_localrepo\omnidb-paralleldbonapu\src\query\coprocessor-queryscheduler\coprocessor\execstatus.h(111): warning C4700: uninitialized local variable 'Rout' used
+         Finished generating code
+     1>DLL_OpenCL.lib(IndexJoin.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(IndexJoin.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(BinaryJoin.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(BinaryJoin.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(mainProgram.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(mainProgram.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(common.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(common.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(SharedFunction.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(SharedFunction.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(Sort.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(Sort.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(Projection.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(Projection.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(Selection.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(Selection.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(Singular.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(Singular.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(scheduler.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(scheduler.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testINLJ.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testINLJ.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(CSSTree.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(CSSTree.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testSMJ.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testSMJ.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testNinlj.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testNinlj.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testHJ.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testHJ.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testScatter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testScatter.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(generator.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(generator.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(Handshake.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(Handshake.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(KernelScheduler.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(KernelScheduler.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testSort.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testSort.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testAggAfterGB.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testAggAfterGB.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testFilter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testFilter.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testMap.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testMap.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testReduce.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testReduce.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testGroupBy.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testGroupBy.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testScan.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testScan.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testSplit.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testSplit.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testProjection.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testProjection.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testRIDList.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testRIDList.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(testValue.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(testValue.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(PrimitiveCommon.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(PrimitiveCommon.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(Helper.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(Helper.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(Validate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(Validate.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(GroupBy.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(GroupBy.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+     1>DLL_OpenCL.lib(AggAfterGroupBy.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DLL_OpenCL.lib(AggAfterGroupBy.obj)' or at 'C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\vc100.pdb'; linking object as if no debug info
+         CoProcessor.vcxproj -> C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\CoProcessor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\Release\CoProcessor.exe;#1" /manifest Release\CoProcessor.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\CoProcessor.unsuccessfulbuild".
+         Touching "Release\CoProcessor.lastbuildstate".
+     1>Done Building Project "C:\Users\f11301bs\Dropbox\GIT_HUB_LocalRepo\omnidb-paralleldbonapu\src\Query\CoProcessor-QueryScheduler\CoProcessor\CoProcessor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.88
